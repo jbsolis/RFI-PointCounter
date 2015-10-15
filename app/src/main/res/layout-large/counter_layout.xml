@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/negativebuttonsTR"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/negative_2"
+            android:id="@+id/btmneg2Btn"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:textSize="30sp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/negative_5"
+            android:id="@+id/btmneg5Btn"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:textSize="30sp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/negative_10"
+            android:id="@+id/btmneg10Btn"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:textSize="30sp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/negative_15"
+            android:id="@+id/btmneg15Btn"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:textSize="30sp" />
+    </TableRow>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/counterRL"
+        android:layout_weight="1"
+        android:background="#ffffff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/playerpointsTV"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="60sp"
+            android:textColor="#000000"
+            android:textIsSelectable="false"
+            android:text="@string/start_counter_number" />
+    </RelativeLayout>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/positivebuttonsTR"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/positive_2"
+            android:id="@+id/btmpos2Btn"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:textSize="30sp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/positive_5"
+            android:id="@+id/btmpos5Btn"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:textSize="30sp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/positive_10"
+            android:id="@+id/btmpos10Btn"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:textSize="30sp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/positive_15"
+            android:id="@+id/btmpos15Btn"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:textSize="30sp" />
+    </TableRow>
+</LinearLayout>
